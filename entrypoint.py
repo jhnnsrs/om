@@ -4,8 +4,8 @@ from yaml import dump, Dumper
 import yaml
 
 
-def hallo(nana: Representation) -> Representation:
-    """Hallo
+def hallok(nana: Representation) -> Representation:
+    """Knacko
 
     generates hallo
 
@@ -18,6 +18,6 @@ def hallo(nana: Representation) -> Representation:
     print("nenewnew")
 
 
-x = define(hallo)
+x = define(hallok)
 with open(".port/definition.yaml", "w") as f:
     yaml.dump(x.dict(as_input=True), f)

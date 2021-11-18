@@ -15,9 +15,9 @@ args:
     typename: SearchWidget
 description: generates hallo
 id: null
-interface: hallo
+interface: hallok
 kwargs: []
-name: Hallo
+name: Knacko
 package: test
 repository: null
 returns:
