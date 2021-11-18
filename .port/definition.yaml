@@ -6,7 +6,13 @@ args:
   key: nana
   label: null
   typename: StructureArgPort
-  widget: null
+  widget:
+    dependencies: null
+    query: "\n                    query Search($search: String){\n               \
+      \         options: representations(name: $search){\n                       \
+      \     value: id\n                            label: name\n                 \
+      \       }\n                    }\n                    "
+    typename: SearchWidget
 description: generates hallo
 id: null
 interface: hallo
